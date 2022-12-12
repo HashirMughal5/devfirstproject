@@ -15,11 +15,6 @@ body {
   background-color: var(--body);
 }
 
-/* ------------------------------------------------------------ 
-Setup components
----------------------------------------------------------------*/
-
-/* button */
 .btn {
   border-radius: 8px;
 }
@@ -39,7 +34,7 @@ Setup components
 
 .btn-outline-secondary {
   border: 1px solid var(--gray-2);
-  background-color: rgb(158, 192, 23);
+  background-color: #fef61d;
 
   color: var(--black);
 
@@ -76,6 +71,9 @@ Setup components
   font-size: 16px;
   color: var(--gray-1);
 }
+.navbar-toggler {
+  justify-content: center;
+}
 
 .navbar-nav .nav-link.active {
   font-weight: bold;
@@ -102,7 +100,7 @@ section.hero .text-center {
 .buttons .btn {
   font-size: 16px;
   font-weight: bold;
-  line-height: 24px;
+  line-height: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -201,7 +199,7 @@ section.information .info-1 {
   }
 
   .buttons .btn {
-    display: block;
+    /* display: block; */
     margin: 1rem 0;
   }
 
@@ -214,24 +212,16 @@ section.information .info-1 {
   }
 }
 
-/* footer {
-  padding-top: 50px;
-  margin-bottom: 44px;
-} */
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-body{
-	line-height: 1.5;
-	font-family: 'Poppins', sans-serif;
-} */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 .container {
-  max-width: 1170px;
+  max-width: 1178px;
   margin: auto;
 }
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -311,7 +301,6 @@ ul {
   }
 }
 
-/* yaha say   */
 .few-second {
   border-bottom: 5px solid #f7f702;
   margin-top: -5px !important;
@@ -335,6 +324,7 @@ ul {
   justify-content: end !important;
   align-items: flex-end !important;
 }
+
 .card-1 {
   margin: 10px;
 }
@@ -382,6 +372,7 @@ ul {
   text-align: center;
   width: 60%;
 }
+
 .center {
   display: flex;
   justify-content: center;
@@ -401,3 +392,10 @@ ul {
   align-items: center;
   margin-top: 30px;
 }
+/* .update1,
+p {
+  font-size: px;
+  align-items: center;
+  /* justify-content: center;
+  display: flex;
+} */
